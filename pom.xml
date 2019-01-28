@@ -183,22 +183,9 @@
             </plugins>
         </pluginManagement>
     </build>
-    <!-- Maven Repositories -->
-    <repositories>
-        <!-- ForgeRock Common Internal Project Repositories -->
-        <repository>
-            <id>forgerock-staging-repo</id>
-            <name>ForgeRock Release Repository</name>
-            <url>http://maven.forgerock.org/repo/releases</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
     <scm>
-        <connection>scm:git:ssh://git@stash.forgerock.org:7999/commons/forgerock-guava.git</connection>
-        <developerConnection>scm:git:ssh://git@stash.forgerock.org:7999/commons/forgerock-guava.git</developerConnection>
-        <url>http://stash.forgerock.org/projects/COMMONS/repos/forgerock-guava/browse</url>
-      <tag>18.0.4</tag>
-  </scm>
- </project>
+        <connection>scm:git:https://github.com/openam-jp/forgerock-guava.git</connection>
+        <developerConnection>scm:git:git@github.com:openam-jp/forgerock-guava.git</developerConnection>
+        <url>https://github.com/openam-jp/forgerock-guava</url>
+    </scm>
+</project>
