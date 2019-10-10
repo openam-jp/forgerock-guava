@@ -27,17 +27,6 @@
     <artifactId>forgerock-guava-all</artifactId>
     <name>Google Guava</name>
     <description>Repackaged version of Guava to avoid dependency collisions.</description>
-    <dependencyManagement>
-      <dependencies>
-        <dependency>
-          <groupId>jp.openam.commons</groupId>
-          <artifactId>forgerock-bom</artifactId>
-          <version>4.1.2-SNAPSHOT</version>
-          <scope>import</scope>
-          <type>pom</type>
-        </dependency>
-      </dependencies>
-    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
