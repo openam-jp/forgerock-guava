@@ -195,5 +195,5 @@
         <developerConnection>scm:git:git@github.com:openam-jp/forgerock-guava.git</developerConnection>
         <url>https://github.com/openam-jp/forgerock-guava</url>
       <tag>18.0.5</tag>
-  </scm>
+    </scm>
 </project>
